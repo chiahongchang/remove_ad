@@ -1,20 +1,22 @@
-#!name: Line 去廣告
-#!desc: Line 去廣告
-
+name: Line去广告
+desc: 移除Line各类广告
+icon: https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Line.png
+category: 去广告
+date: "2024-07-26 21:19:28"
 http:
   mitm:
-    - "a.line.me"
-    - "w.line.me"
-    - "buy.line.me"
-    - "crs-event.line.me"
-    - "obs.line-scdn.net"
-    - "cix.line-apps.com"
-    - "d.line-scdn.net"
-    - "scdn.line-apps.com"
-    - "sch.line.me"
-    - "uts-front.line-apps.com"
-    - "static.line-scdn.net"
-    - "nelo2-col.linecorp.com"
+    - a.line.me
+    - w.line.me
+    - buy.line.me
+    - crs-event.line.me
+    - obs.line-scdn.net
+    - cix.line-apps.com
+    - d.line-scdn.net
+    - scdn.line-apps.com
+    - sch.line.me
+    - uts-front.line-apps.com
+    - static.line-scdn.net
+    - nelo2-col.linecorp.com
 
   url-rewrite:
     - ^https?:\/\/a\.line\.me\/er\/lads\/v\d\/ei\? - reject
