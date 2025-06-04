@@ -1,5 +1,5 @@
-name: Line 去廣告
-desc: Line 去廣告
+#!name: Line 去廣告
+#!desc: Line 去廣告
 
 http:
   mitm:
